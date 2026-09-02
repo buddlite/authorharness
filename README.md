@@ -29,6 +29,23 @@ uv run ruff check .
 Without `uv`, create a virtual environment and install the project with the
 `dev` extra using your preferred package manager.
 
+## Run it
+
+On Windows, double-click `writer-harness.cmd` or run:
+
+```powershell
+.\writer-harness.cmd
+```
+
+On macOS or Linux:
+
+```bash
+./writer-harness.sh
+```
+
+Both launchers use the locked environment automatically. The equivalent direct
+commands are `uv run --locked writer` and `python -m writer_harness`.
+
 ## Initial modules
 
 - `writer_harness.domain`: versioned story-state and scene contracts.

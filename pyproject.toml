@@ -26,6 +26,7 @@ dev = [
 
 [project.scripts]
 writer = "writer_harness.cli:main"
+writer-harness = "writer_harness.cli:main"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/writer_harness"]
